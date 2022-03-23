@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+#main{
+
+}
+#header{
+    height: 46px;
+    background-color: black;
+   
+}
+
+#nav{
+    
+}
+#nav li{
+    display: inline-block;
+    line-height: 46px;
+    position: relative ;
+    
+}
+#nav li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+#nav > li >a{
+    text-transform: uppercase;
+}
+#nav > li:hover >a{
+    color: black;
+    background-color: white;
+    
+}
+#nav li:hover a{
+    
+}
+#nav .subnav{   
+    display: none;
+    top:100%;
+    left: 0;
+    position:absolute;
+    background-color: black;
+    
+}
+#nav .subnav1{   
+    display: none;
+    top:100%;
+    left: 0;
+    position:absolute;
+    background-color: rgb(128, 201, 211);
+}
+#nav .subnav2{   
+    display: none;
+    top:100%;
+    left: 0;
+    position:absolute;
+    background-color: rgb(53, 32, 168);
+}
+#nav .subnav3{   
+    display: none;
+    top:100%;
+    left: 0;
+    position:absolute;
+    background-color: rgb(212, 61, 61);
+}
+#nav .subnav li:hover a{
+    background-color: rebeccapurple;
+}
+#nav .subnav1 li:hover a{
+    background-color: rebeccapurple;
+}
+#nav .subnav2 li:hover a{
+    background-color: rebeccapurple;
+}
+#nav .subnav3 li:hover a{
+    background-color: rebeccapurple;
+}
+#nav .subnav li a{
+    display: block;
+}
+#nav .subnav1 li{
+    display: block;
+}
+#nav .subnav1 li a{
+    display: block;
+}
+#nav .subnav2 li{
+    display: block;
+}
+#nav .subnav2 li a{
+    display: block;
+}
+#nav .subnav3 li{
+    display: block;
+}
+#nav .subnav3 li a{
+    display: block;
+}
+#nav .subnav li{
+    display: block;
+}
+#nav li:hover .subnav{
+    display: inline-block;
+   
+}
+#nav li:hover .subnav1{
+    display: inline-block;
+   
+}
+#nav li:hover .subnav2{
+    display: inline-block;
+   
+}
+#nav li:hover .subnav3{
+    display: inline-block;
+   
+}
+
+#silder{
+   
+}
+
+#content{}
+#footer{}
+#silder{
+    
+}
+#content{
+    
+}
+#footer{
+    
+}
